@@ -2,19 +2,21 @@
 
 ## Project Overview
 
-Guided Selling for Complex Products is a ServiceNow application that helps customers choose the right product by asking a series of questions and providing recommendations based on their requirements. The project automates product selection, reduces incorrect orders, and improves the customer experience.
+**Guided Selling for Complex Products** is a ServiceNow application that simplifies the product selection process by guiding customers through a series of questions and recommending the most suitable product based on their requirements. The solution automates decision-making, reduces manual effort, and improves customer satisfaction.
+
+---
 
 ## Problem Statement
 
-Customers often struggle to select the correct product because many products have multiple configurations, pricing options, and compatibility rules. This can lead to incorrect product selection, increased support requests, and delayed order processing. The organization requires an automated Guided Selling solution that recommends the most suitable product based on customer requirements.
+Organizations selling configurable products often face challenges because customers may not know which product best meets their needs. Manual product selection can result in incorrect orders, increased support requests, and delays. This project provides an automated Guided Selling solution using ServiceNow.
 
-## Objectives
+---
 
-* Simplify the product selection process.
-* Recommend products based on customer requirements.
-* Reduce incorrect product orders.
-* Improve customer satisfaction.
-* Automate the ordering process using ServiceNow.
+## Proposed Solution
+
+The application collects customer requirements through a Service Catalog Item and uses Decision Tables, Catalog UI Policies, Catalog Client Scripts, and Flow Designer to recommend the appropriate product and automate request processing.
+
+---
 
 ## Technologies Used
 
@@ -28,31 +30,98 @@ Customers often struggle to select the correct product because many products hav
 * Flow Designer
 * Email Notifications
 
+---
+
+## ServiceNow Modules Used
+
+* App Engine Studio
+* Service Catalog
+* Flow Designer
+* Decision Builder
+* Catalog UI Policies
+* Catalog Client Scripts
+* Notifications
+
+---
+
 ## Project Workflow
 
 1. Create the Guided Selling application.
-2. Create the **Complex Products** catalog category.
+2. Create the **Complex Products** category.
 3. Create the **Guided Product Selection** catalog item.
-4. Add variables such as Product Type, Budget, Usage, RAM, Storage, and Warranty.
-5. Configure Catalog UI Policies to control field visibility and mandatory fields.
-6. Create Catalog Client Scripts for dynamic validation and messages.
-7. Build a Decision Table to recommend products.
-8. Create a Flow Designer flow to process requests automatically.
-9. Send email notifications after request submission.
-10. Test the complete application through the Service Catalog.
+4. Create variables:
+
+   * Product Type
+   * Budget
+   * Usage
+   * RAM
+   * Storage
+   * Warranty
+5. Configure Catalog UI Policies.
+6. Configure Catalog Client Scripts.
+7. Create a Decision Table.
+8. Build the Flow Designer workflow.
+9. Configure Email Notification.
+10. Test the complete application.
+
+---
 
 ## Features
 
-* Intelligent product recommendation.
-* Dynamic form behavior.
-* Automated workflow.
-* Email notification after request submission.
-* User-friendly Service Catalog interface.
+* Intelligent product recommendation
+* Dynamic form behavior
+* Automated request processing
+* Decision-based product selection
+* Email notifications
+* Improved customer experience
+
+---
+
+## Project Structure
+
+```text
+Guided-selling-for-complex-products/
+│
+├── README.md
+├── Screenshots/
+│   ├── README.md
+│   └── Project Screenshots
+│
+└── Update Set/
+    ├── README.md
+    └── Update Set File
+```
+
+---
 
 ## Expected Outcome
 
-The application recommends the most suitable product based on customer inputs, reduces manual effort, minimizes incorrect product selection, and improves the overall ordering experience.
+* Simplifies complex product selection.
+* Reduces incorrect product orders.
+* Improves customer satisfaction.
+* Automates the product recommendation process.
+* Demonstrates real-world ServiceNow development skills.
+
+---
+
+## Future Enhancements
+
+* AI-based product recommendations
+* Integration with CRM and ERP systems
+* Product inventory validation
+* Approval workflows
+* Reporting and dashboards
+
+---
+
+## Author
+
+**Revathi Mangamuri**
+
+ServiceNow Developer | ServiceNow Learner
+
+---
 
 ## Conclusion
 
-The Guided Selling for Complex Products project demonstrates how ServiceNow can automate complex product selection using Service Catalog, Decision Tables, UI Policies, Client Scripts, and Flow Designer. This project provides a practical real-world solution for organizations that sell configurable products.
+This project demonstrates how ServiceNow can automate complex product selection using Service Catalog, Decision Tables, Flow Designer, Catalog UI Policies, and Client Scripts. It provides a scalable and practical solution for organizations that sell configurable products.
