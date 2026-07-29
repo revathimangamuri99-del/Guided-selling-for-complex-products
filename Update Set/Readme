@@ -1,0 +1,36 @@
+# Update Set
+
+This folder contains the **ServiceNow Update Set** for the **Guided Selling for Complex Products** project.
+
+## Purpose
+
+The Update Set captures the configurations and customizations developed during the project. It allows the application to be moved from one ServiceNow instance to another.
+
+## Components Included
+
+* Application configuration
+* Service Catalog Category
+* Catalog Item
+* Variables
+* Catalog UI Policies
+* Catalog Client Scripts
+* Decision Table
+* Flow Designer Flow
+* Notifications
+* Other project customizations
+
+## How to Import
+
+1. Download the Update Set XML file.
+2. In the target ServiceNow instance, navigate to:
+   **System Update Sets → Retrieved Update Sets**.
+3. Click **Import Update Set from XML**.
+4. Upload the XML file.
+5. Preview the Update Set and resolve any issues.
+6. Click **Commit** to apply the changes.
+
+## Project
+
+**Project Name:** Guided Selling for Complex Products
+
+This Update Set enables the complete deployment of the Guided Selling application in another ServiceNow instance.
